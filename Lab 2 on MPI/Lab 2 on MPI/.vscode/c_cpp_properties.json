@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "windows-cygwin-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/include/x86_64-linux-gnu/mpich"
+      ],
+      "compilerPath": "C:/cygwin64/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerArgs": [
+        ""
+      ]
+    }
+  ],
+  "version": 4
+}

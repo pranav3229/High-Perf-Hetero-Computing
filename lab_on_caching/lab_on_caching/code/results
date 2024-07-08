@@ -1,0 +1,12 @@
+PS C:\Users\91961\Downloads\lab_on_caching\lab_on_caching\code> ./w01-byte
+5120000 bytes   446.034 sec   11478.9 byte/sec     
+PS C:\Users\91961\Downloads\lab_on_caching\lab_on_caching\code> make w02-byte
+gcc -std=gnu11 -Wall -pedantic      w02-byte.c   -o w02-byte
+PS C:\Users\91961\Downloads\lab_on_caching\lab_on_caching\code> ./w02-byte
+5120000 bytes   12.155 sec   421229 byte/sec     
+PS C:\Users\91961\Downloads\lab_on_caching\lab_on_caching\code> make w03-byte
+gcc -std=gnu11 -Wall -pedantic      w03-byte.c   -o w03-byte
+PS C:\Users\91961\Downloads\lab_on_caching\lab_on_caching\code> ./w03-byte
+5120000 bytes   5.582 sec   917248 byte/sec 
+
+increasing the array size increased the hit-count and the number of cache accesses

@@ -1,0 +1,73 @@
+Enter the dimension of the matrices (n x n), where n is a power of 2: 4
+Populate matrix A:
+Enter the elements for a 4x4 matrix:
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+Populate matrix B:
+Enter the elements for a 4x4 matrix:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+1       2       3       4
+1       2       3       4
+1       2       3       4
+1       2       3       4
+
+1       2       3       4
+5       6       7       8
+9       10      11      12
+13      14      15      16
+
+Result of Strassen's Multiplication:
+90      100     110     120
+90      100     110     120
+90      100     110     120
+90      100     110     120
+
+Serial Time: 0.00035600
+Parallel Time: 0.00013800
+Speedup: 2.57971014
+
+
+
+
+
+
+Enter the dimension of the matrices (n x n), where n is a power of 2: 8
+Populate matrix A:
+Enter the elements for a 8x8 matrix:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+Populate matrix B:
+Enter the elements for a 8x8 matrix:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+1       2       3       4       5       6       7       8
+9       10      11      12      13      14      15      16
+1       2       3       4       5       6       7       8
+9       10      11      12      13      14      15      16
+1       2       3       4       5       6       7       8
+9       10      11      12      13      14      15      16
+1       2       3       4       5       6       7       8
+9       10      11      12      13      14      15      16
+
+1       2       3       4       5       6       7       8
+9       10      11      12      13      14      15      16
+1       2       3       4       5       6       7       8
+9       10      11      12      13      14      15      16
+1       2       3       4       5       6       7       8
+9       10      11      12      13      14      15      16
+1       2       3       4       5       6       7       8
+9       10      11      12      13      14      15      16
+
+Result of Strassen's Multiplication:
+196     232     268     304     340     376     412     448
+516     616     716     816     916     1016    1116    1216
+196     232     268     304     340     376     412     448
+516     616     716     816     916     1016    1116    1216
+196     232     268     304     340     376     412     448
+516     616     716     816     916     1016    1116    1216
+196     232     268     304     340     376     412     448
+516     616     716     816     916     1016    1116    1216
+
+Serial Time: 0.00166300
+Parallel Time: 0.00244300
+Speedup: 0.68072043
